@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @company.name
+%p
+  %b Value:
+  = @company.value
+%p
+  %b Amount:
+  = @company.amount
+
+= link_to 'Edit', edit_company_path(@company)
+\|
+= link_to 'Back', companies_path
