@@ -9,6 +9,16 @@ gem 'sqlite3'
 gem 'uglifier', '>= 1.3.0'
 
 
+####################################
+## CUSTOM
+####################################
+
+gem 'autoprefixer-rails'
+gem 'bootstrap'
+gem 'jquery-rails'
+
+####################################
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
