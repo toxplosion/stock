@@ -16,6 +16,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'autoprefixer-rails'
 gem 'bootstrap'
 gem 'jquery-rails'
+gem 'haml-rails'
 
 ####################################
 
